@@ -1,0 +1,66 @@
+# Node dependencies & builds
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+.npm/
+
+# Python cache & compiled files
+__pycache__/
+*/__pycache__/
+backend/__pycache__/
+backend/*/__pycache__/
+tests/__pycache__/
+tools/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Backup, temporary, and swap files
+*.bak
+*.tmp
+*.temp
+*.swp
+*~
+scratch/
+
+# Environment & local credentials
+.env
+.env.*
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# SQLite WAL and journal files (preserves canonical shramrakshak.db)
+*.db-wal
+*.db-shm
+*.db-journal
+
+# IDE & Editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & test coverage
+*.log
+.coverage
+.coverage.*
+htmlcov/
